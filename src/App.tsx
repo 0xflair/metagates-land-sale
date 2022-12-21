@@ -183,7 +183,7 @@ function App() {
                                 className={mainButtonClass}
                               />
                             </TieredSalesApproveButton>
-                            <div className="flex gap-2 items-center w-full">
+                            {/* <div className="flex gap-2 items-center w-full">
                               <TieredSalesPayButton
                                 className={classNames(
                                   SECONDARY_BUTTON,
@@ -200,7 +200,7 @@ function App() {
                                 method="utrust,bitpay,coinbase"
                                 alwaysShow={false}
                               />
-                            </div>
+                            </div> */}
                           </SwitchChainButton>
                         </div>
                       </ConnectButton>
