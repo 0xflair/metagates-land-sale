@@ -19,6 +19,7 @@ root.render(
             // "BERsn9ulYaLrS7gGYWZUahXaKBQxok5VheVlblnp58w8-ZDuvpzH3sSFRFZV3hrMRQhcwDnN1RTmwUzh6ARdAnA", // TEST
             // "BJHx2FvP8r5G4d9geevWPFhyPFQvr0Wu-tU1b-xHINOUV7nU1w4n-EMSyKlffGleqDkkx6Gaq1Y4EEjbb5UTRUs", // PROD
         },
+        instanceId: 'archetypes'
       }}
     >
       <App />
