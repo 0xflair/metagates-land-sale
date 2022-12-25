@@ -98,7 +98,16 @@ function App() {
           <main className="h-fit w-full max-w-2xl min-w-xl mx-auto lg:max-w-5xl flex flex-col gap-8 items-center p-4">
             {/* Sales Title */}
             <div className="flex flex-col gap-4 items-center justify-between">
-              <h2 className="font-bold text-2xl">Choose your archetype</h2>
+              <h2 className="font-bold text-2xl">
+                Purchase an early access pass
+              </h2>
+              <a
+                href="https://medium.com/@metagatesgg/metagates-archetypes-on-arbitrum-nova-information-e22ef1959d98"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                Click here for details
+              </a>
             </div>
 
             {/* Tier Selector */}
@@ -183,7 +192,7 @@ function App() {
                                 className={mainButtonClass}
                               />
                             </TieredSalesApproveButton>
-                            {/* <div className="flex gap-2 items-center w-full">
+                            <div className="flex gap-2 items-center w-full">
                               <TieredSalesPayButton
                                 className={classNames(
                                   SECONDARY_BUTTON,
@@ -200,7 +209,7 @@ function App() {
                                 method="utrust,bitpay,coinbase"
                                 alwaysShow={false}
                               />
-                            </div> */}
+                            </div>
                           </SwitchChainButton>
                         </div>
                       </ConnectButton>
